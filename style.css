@@ -1,0 +1,127 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 60px;
+    background-color: #5e6669;
+    color: #f2f2f2;
+    text-align: center;
+}
+
+h1 {
+    color: #ffffff;
+    font-family: Trebuchet;
+    font-weight: 900;
+    font-size: 32px;
+    background-color: #1b2529;
+    padding: 7px;
+    text-align: center;
+    position: relative;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #1b2529;
+}
+
+.btn, .btn-edit, .btn-delete, .btn-back {
+    display: inline-block;
+    padding: 10px 15px;
+    margin: 5px;
+    text-decoration: none;
+    border-radius: 5px;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+.btn {
+    background-color: rgb(165, 13, 5);
+    text-align: right;
+}
+.btn:hover{
+    background-color: rgb(218, 211, 211);
+    color: rgb(165, 13, 5);
+    border: rgb(165, 13, 5);
+    border-radius: 5px;
+}
+
+
+.btn-edit {
+    background-color: #003546;
+}
+
+.btn-delete {
+    background-color: rgb(165, 13, 5);
+}
+
+.btn-delete:hover {
+    background-color: rgb(221, 200, 200);
+    color: rgb(165, 13, 5);
+}
+
+.btn-back {
+    background-color: rgb(165, 13, 5);
+}
+.btn-back:hover {
+
+    background-color: rgb(221, 200, 200);
+    color: rgb(165, 13, 5);
+}
+
+.btn-edit:hover {
+    background-color: aliceblue; /* Mengubah warna background saat hover */
+        color: #1b2529; /* Mengubah warna teks saat hover, opsional */
+}
+
+form {
+    width: 40%;
+    margin: auto;
+    background: #1b2529;
+    padding: 40px 40px 20px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+}
+
+label {
+    display: block;
+    margin: 10px 5px 5px;
+    padding-left: 10px;
+}
+
+.subm {
+    display: inline-block;
+    padding: 10px 15px 10px;
+    margin: 13px 0 8px;
+    border-radius: 4px;
+    background-color: rgb(165, 13, 5);
+    font-family: 'Trebuchet MS';
+    color: #f2f2f2;
+    text-decoration: none;
+}
+
+.subm:hover {
+    background-color: rgb(221, 200, 200);
+    color: rgb(165, 13, 5);
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
